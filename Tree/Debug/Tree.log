@@ -1,2 +1,9 @@
-﻿  BinaryTreeMain.c
-  Tree.vcxproj -> C:\Users\KSB\Desktop\github\Data_structure\Tree\Debug\Tree.exe
+﻿  ExpressionTree.c
+c:\users\ms\desktop\github\data_structure\tree\expressiontree.c(31): warning C4047: '함수': 'BTreeNode *'의 간접 참조 수준이 'Data'과(와) 다릅니다.
+c:\users\ms\desktop\github\data_structure\tree\expressiontree.c(31): warning C4024: 'MakeRightSubTree': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\users\ms\desktop\github\data_structure\tree\expressiontree.c(32): warning C4047: '함수': 'BTreeNode *'의 간접 참조 수준이 'Data'과(와) 다릅니다.
+c:\users\ms\desktop\github\data_structure\tree\expressiontree.c(32): warning C4024: 'MakeLeftSubTree': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\users\ms\desktop\github\data_structure\tree\expressiontree.c(37): warning C4047: '함수': 'Data'의 간접 참조 수준이 'BTreeNode *'과(와) 다릅니다.
+c:\users\ms\desktop\github\data_structure\tree\expressiontree.c(37): warning C4024: 'SPush': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+c:\users\ms\desktop\github\data_structure\tree\expressiontree.c(40): warning C4047: 'return': 'BTreeNode *'의 간접 참조 수준이 'Data'과(와) 다릅니다.
+  Tree.vcxproj -> C:\Users\MS\Desktop\Github\Data_structure\Tree\Debug\Tree.exe

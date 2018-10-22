@@ -13,18 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{25ebd91b-316b-4184-bf2f-26ca564e9454}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TreeBinary.h">
-      <Filter>소스 파일</Filter>
+    <ClInclude Include="ListBaseStack.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionTree.h">
+      <Filter>Tree</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TreeBinary.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="ListBaseStack.c">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree.c">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionTree.c">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionMain.c">
+      <Filter>Tree</Filter>
     </ClCompile>
     <ClCompile Include="BinaryTreeMain.c">
-      <Filter>소스 파일</Filter>
+      <Filter>Tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -19,11 +19,22 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TreeBinary.h" />
+    <ClInclude Include="ExpressionTree.h" />
+    <ClInclude Include="BinaryTree.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">아니오</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ListBaseStack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BinaryTreeMain.c" />
-    <ClCompile Include="TreeBinary.c" />
+    <ClCompile Include="BinaryTreeMain.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="BinaryTree.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">아니오</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="ExpressionMain.c" />
+    <ClCompile Include="ExpressionTree.c" />
+    <ClCompile Include="ListBaseStack.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4306BBCC-762C-4799-B66A-6CEEBDDD940D}</ProjectGuid>
