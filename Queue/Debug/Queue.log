@@ -1,0 +1,4 @@
+﻿  DequeMain.c
+c:\users\ms\desktop\3학년 2학기\자료구조\queue\dequemain.c(33): warning C4013: 'system'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  Queue.vcxproj -> C:\Users\MS\Desktop\3학년 2학기\자료구조\Queue\Debug\Queue.exe
+  Queue.vcxproj -> C:\Users\MS\Desktop\3학년 2학기\자료구조\Queue\Debug\Queue.pdb (Partial PDB)
