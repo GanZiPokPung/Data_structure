@@ -1,0 +1,25 @@
+﻿  main.c
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(182): warning C4133: '=': 'INVENTORY *'과(와) 'BOOKINFO *' 사이의 형식이 호환되지 않습니다.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(240): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(132): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(135): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 'strcat' 선언을 참조하십시오.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(138): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: 'fopen' 선언을 참조하십시오.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(222): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(227): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(232): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(269): warning C4047: '초기화 중': 'char'의 간접 참조 수준이 'char [1]'과(와) 다릅니다.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(284): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(294): warning C4013: 'sortInven'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(297): warning C4013: 'sortBook'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(372): warning C4013: 'swapInvenPointer'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(436): warning C4013: 'swapBook'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(387): warning C4716: 'removeInvenElement': 값을 반환해야 합니다.
+c:\users\ms\desktop\3학년 2학기\자료구조\book_management\main.c(394): warning C4716: 'swapInvenPointer': 값을 반환해야 합니다.
+  book_management.vcxproj -> C:\Users\MS\Desktop\3학년 2학기\자료구조\book_management\Debug\book_management.exe
