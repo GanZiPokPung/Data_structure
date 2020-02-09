@@ -13,6 +13,14 @@ public:
 	{
 		return number == other.number;
 	}
+	bool operator < (const _data& other)
+	{
+		return number < other.number;
+	}
+	bool operator > (const _data& other)
+	{
+		return number > other.number;
+	}
 }DATA;
 
 typedef struct _singleNode
