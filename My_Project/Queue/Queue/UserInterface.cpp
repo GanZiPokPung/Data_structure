@@ -1,11 +1,12 @@
 #include "pch.h"
 #include "UserInterface.h"
 #include "Queue_Array.h"
-#include "Queue_LInkedList.h"
+#include "Queue_LinkedList.h"
 
 UserInterface::UserInterface()
 {
-	m_Queue = new Queue_LInkedList;
+	m_Queue = new Queue_LinkedList;
+			// È¤Àº new Queue_Array;
 }
 
 UserInterface::~UserInterface()

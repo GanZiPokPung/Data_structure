@@ -1,12 +1,12 @@
 #pragma once
 #include "Queue_Abstract.h"
 
-class Queue_LInkedList
+class Queue_LinkedList
 	: public Queue_Abstract
 {
 public:
-	Queue_LInkedList();
-	virtual ~Queue_LInkedList();
+	Queue_LinkedList();
+	virtual ~Queue_LinkedList();
 public:
 	virtual void Enqueue(const DATA& data);
 	virtual bool Dequeue(DATA* OutData);

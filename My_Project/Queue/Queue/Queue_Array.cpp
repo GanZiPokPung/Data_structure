@@ -1,7 +1,6 @@
 #include "pch.h"
 #include "Queue_Array.h"
 
-
 Queue_Array::Queue_Array()
 {
 	m_Size = UNIT;
@@ -12,7 +11,6 @@ Queue_Array::Queue_Array()
 Queue_Array::~Queue_Array()
 {
 	ClearAll();
-	SAFE_DELETE_ARRAY<DATA>(m_Array);
 	SAFE_DELETE_ARRAY<DATA>(m_ForSwap);
 }
 
@@ -60,6 +58,7 @@ void Queue_Array::ClearAll()
 {
 	m_Front = 0;
 	m_Rear = 0;
+	SAFE_DELETE_ARRAY<DATA>(m_Array);
 }
 
 void Queue_Array::PrintAll()
@@ -114,9 +113,12 @@ void Queue_Array::ChangeSize(int size)
 	m_Array = new DATA[m_Size + size];
 	memset(m_Array, 0, sizeof(DATA) * (m_Size + size));
 
+	// size를 축소하는 경우
 	if (0 > size)
 	{
 		int index = 0;
+		// ForSwap 정보를 배열로 옮길때 데이터를 땡긴다.
+		// 재할당 받은 배열의 0번째 인덱스부터 데이터를 넣는다.
 		for (int i = m_Front; i < m_Rear; ++i)
 		{
 			m_Array[index] = m_ForSwap[i];
@@ -125,6 +127,7 @@ void Queue_Array::ChangeSize(int size)
 		m_Rear -= m_Front;
 		m_Front = 0;
 	}
+	// size를 확장하는 경우
 	else
 	{
 		memcpy(m_Array, m_ForSwap, sizeof(DATA) * m_Size);
